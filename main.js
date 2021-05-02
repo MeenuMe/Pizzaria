@@ -17,7 +17,7 @@ function add_item()
     menu_list.sort();
     var htmldata = "<section class = 'cards'>";
     for(var i = 0; i < menu_list.length; i++){
-        htmldata = htmldata + '<div class = "card">'+'<img src = "images/pizzaImg.png"'+menu_list[i]+'</div>';
+        htmldata = htmldata + '<div class = "card">'+'<img src = "pizzaImg.png"'+menu_list[i]+'</div>';
     }
     htmldata = htmldata + '</section>';
     document.getElementById("display_addedmenu").innerHTML = htmldata;
